@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "./assets/fonts/Manrope/css/index.css";
+
+@theme {
+  --font-Manrope: Manrope;
+  --color-lines: #1d1d1d;
+  --color-secodaryBg: #080808;
+}
+
+@layer base {
+  * {
+    @apply font-Manrope m-0 box-border border-none p-0 font-normal outline-none;
+  }
+
+  body {
+    @apply h-full w-full border-none bg-black text-white outline-none;
+  }
+}
