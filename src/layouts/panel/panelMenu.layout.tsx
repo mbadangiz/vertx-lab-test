@@ -16,8 +16,8 @@ export default function PanelMenuLayout() {
 
 function MenuAbove() {
   return (
-    <div className="border-r-lines hidden h-[50px] w-full border-r-2 border-solid md:flex">
-      <div className="flex h-full w-[50px] content-center items-center justify-center">
+    <div className="border-r-lines hidden h-50 w-full border-r-2 border-solid md:flex">
+      <div className="flex h-full w-50 content-center items-center justify-center">
         <div className="size-[30px] rounded-full bg-white"></div>
       </div>
       <h2 className="flex h-full w-[calc(100%-50px)] content-center items-center px-6 text-lg font-bold">
@@ -29,15 +29,15 @@ function MenuAbove() {
 
 function MenuLeft() {
   return (
-    <div className="border-lines hidden h-[calc(100%-50px)] w-[50px] flex-col justify-between border-2 border-solid md:flex">
-      <div className="border-b-lines flex h-[50px] w-full content-center items-center justify-center border-b-2 border-solid">
+    <div className="border-lines hidden h-[calc(100%-50px)] w-50 flex-col justify-between border-2 border-solid md:flex">
+      <div className="border-b-lines flex h-50 w-full content-center items-center justify-center border-b-2 border-solid">
         <img
           src={profileImages}
           className="size-[30px] rounded-full"
           alt="profiles"
         />
       </div>
-      <div className="border-t-lines flex h-[50px] w-full content-center items-center justify-center border-t-2 border-solid">
+      <div className="border-t-lines flex h-50 w-full content-center items-center justify-center border-t-2 border-solid">
         <FaPlus size={18} />
       </div>
     </div>

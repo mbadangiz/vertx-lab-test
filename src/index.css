@@ -3,13 +3,19 @@
 
 @theme {
   --font-Manrope: Manrope;
+
   --color-lines: #1d1d1d;
   --color-secodaryBg: #080808;
+
+  --radius-custom: 10px;
+
+  --spacing-50: 50px;
+  --spacing-cust49per: 49%;
 }
 
 @layer base {
   * {
-    @apply font-Manrope m-0 box-border border-none p-0 font-normal outline-none;
+    @apply font-Manrope m-0 box-border border-none p-0 font-normal transition-all outline-none;
   }
 
   body {
