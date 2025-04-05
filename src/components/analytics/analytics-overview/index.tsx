@@ -1,5 +1,4 @@
 import LineChartContainer from "./line-chart";
-import MapChart from "./map-chart";
 import MetricsContainer from "./metrics-container";
 
 function AnalyticsOverview() {

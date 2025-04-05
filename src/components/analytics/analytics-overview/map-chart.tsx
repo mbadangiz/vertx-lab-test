@@ -119,7 +119,7 @@ const MyMapChart = () => {
         type: "mappoint",
         name: "Population",
         data: demographicData,
-        color: Highcharts.getOptions().colors[1],
+        color: Highcharts?.getOptions()?.colors![1],
         dataLabels: {
           enabled: true,
           format: "{point.name}",

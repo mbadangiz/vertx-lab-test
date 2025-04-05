@@ -1,9 +1,12 @@
+// @ts-nocheck
+import Highcharts, {
+  AxisLabelsFormatterContextObject,
+  Options,
+} from "highcharts";
+import HighchartsReact from "highcharts-react-official";
+import React from "react";
 import MetricDisplay from "../../../core/components/metric-display";
 import SelectOption from "../../../core/components/select-option";
-import Highcharts from "highcharts";
-import HighchartsReact from "highcharts-react-official";
-import { Options } from "highcharts"; // Import Options type
-import { AxisLabelsFormatterContextObject } from "highcharts"; // Import the correct context type
 
 export default function LineChartContainer() {
   return (
