@@ -21,4 +21,14 @@
   body {
     @apply h-full w-full border-none bg-black text-white outline-none;
   }
+
+  #root {
+    @apply overflow-hidden;
+  }
+}
+
+@layer components {
+  .rounded-card {
+    @apply rounded-custom border-lines border-2 border-solid bg-black p-6;
+  }
 }

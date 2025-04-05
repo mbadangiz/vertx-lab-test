@@ -10,9 +10,9 @@ function PanelLayout() {
       <div className="md:w-1/5">
         <PanelMenuLayout />
       </div>
-      <div className="bg-secodaryBg h-full w-full md:w-4/5">
+      <div className="bg-secodaryBg h-full w-full overflow-y-auto md:w-4/5">
         <ContentNav />
-        <div>
+        <div className="w-full overflow-y-auto">
           <Outlet />
         </div>
       </div>

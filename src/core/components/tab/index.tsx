@@ -31,7 +31,7 @@ function TabsNav({
             <div
               key={t.id}
               className={clsx({
-                "md:border-lines relative flex h-50 cursor-pointer content-center items-center justify-center px-2 text-sm md:static md:w-28 md:border-r-2 md:border-solid md:px-0 md:text-base":
+                "md:border-lines relative flex h-50 cursor-pointer content-center items-center justify-center px-2 text-sm md:static md:border-r-2 md:border-solid md:px-6 md:text-base":
                   true,
                 "text-lines": activeTab !== t.id,
                 "before:absolute before:right-0 before:bottom-0 before:left-0 before:h-1 before:rounded before:bg-white":

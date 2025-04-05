@@ -5,7 +5,7 @@ import { SiLinkedin } from "react-icons/si";
 
 function ProfileOverview() {
   return (
-    <div className="w-full overflow-y-auto">
+    <div className="w-full">
       <h2 className="mb-6 text-3xl font-black">Overview</h2>
       <div className="flex w-full flex-wrap items-center justify-center gap-y-6 pb-20 md:justify-between md:pb-0">
         <ProfileCardInfo />
@@ -18,7 +18,7 @@ function ProfileOverview() {
 
 function ProfileCardInfo() {
   return (
-    <div className="rounded-custom border-lines flex h-52 w-full items-center justify-start border-2 border-solid bg-black px-6">
+    <div className="rounded-card flex h-52 w-full items-center justify-start">
       <div className="flex items-center gap-4">
         <img
           src={profileImages}
@@ -42,7 +42,7 @@ function ProfileCardInfo() {
 
 function FoundedCompanies() {
   return (
-    <div className="rounded-custom border-lines md:w-cust49per h-96 w-full border-2 border-solid bg-black p-6">
+    <div className="md:w-cust49per rounded-card h-96 w-full">
       <h2 className="text-2xl font-bold">Founded Companies</h2>
       <h3 className="text-[90px] font-black">02</h3>
       <div className="space-y-4">
@@ -55,9 +55,9 @@ function FoundedCompanies() {
                 className="h-6 w-6 text-black"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M12 2.25c-5.384 0-9.75 4.366-9.75 9.75s4.366 9.75 9.75 9.75 9.75-4.366 9.75-9.75S17.384 2.25 12 2.25zm-2.625 6c-.59 0-1.065.475-1.065 1.065v4.87c0 .59.475 1.065 1.065 1.065h5.25c.59 0 1.065-.475 1.065-1.065v-4.87c0-.59-.475-1.065-1.065-1.065h-5.25zM12 14.25a.75.75 0 100-1.5.75.75 0 000 1.5z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
             </div>
@@ -88,9 +88,9 @@ function FoundedCompanies() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 10h16M4 14h16M4 18h16"
                 ></path>
               </svg>
@@ -119,7 +119,7 @@ function FoundedCompanies() {
 function Experience() {
   const companies = [1, 2, 3];
   return (
-    <div className="rounded-custom border-lines md:w-cust49per h-96 w-full border-2 border-solid bg-black p-6">
+    <div className="md:w-cust49per rounded-card h-96 w-full">
       <h2 className="text-2xl font-bold">Experience</h2>
       <h3 className="text-[90px] font-black">03</h3>
       <div className="space-y-4">
@@ -134,9 +134,9 @@ function Experience() {
                     className="h-6 w-6 text-black"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M12 2.25c-5.384 0-9.75 4.366-9.75 9.75s4.366 9.75 9.75 9.75 9.75-4.366 9.75-9.75S17.384 2.25 12 2.25zm-2.625 6c-.59 0-1.065.475-1.065 1.065v4.87c0 .59.475 1.065 1.065 1.065h5.25c.59 0 1.065-.475 1.065-1.065v-4.87c0-.59-.475-1.065-1.065-1.065h-5.25zM12 14.25a.75.75 0 100-1.5.75.75 0 000 1.5z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     />
                   </svg>
                 </div>
